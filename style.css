@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Afacad Flux; 
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #09264a; 
+    height: 8rem; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+h1 {
+    color: #f0f0f0;
+    font-family: Bebas Neue;
+    font-size: 4.5rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center; 
+    max-width: 800px; 
+    margin: 20px auto; 
+}
+
+.primeira p {
+    max-width: 60%;  
+}
+
+.primeira img {
+    width: 15rem; 
+    margin-left: 50px;
+}
+
+.segunda {
+    background-color: #bbbbbb; 
+    height: 25rem; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+.segunda img {
+    width: 17rem; 
+    margin: 0 50px; 
+}
+
+.segunda p {
+    max-width: 30%; 
+}
+
+
+.terceira {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+.terceira img {
+    width: 8rem; 
+    margin: 10px 0; 
+}
+
+.terceira h2 {
+    color: #09264a;
+}
